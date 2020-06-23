@@ -13,6 +13,8 @@ public interface EstudandeService {
 	void cadastrarEstudante(@Valid Estudante estudante);
 
 	Estudante buscarEstudante(long id);
+	
+	void deletarEstudante (long id);
 
 	void atualizarEstudante(@Valid Estudante estudante);
 }
